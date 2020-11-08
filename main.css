@@ -8,7 +8,7 @@ html {
   box-sizing: border-box;
 }
 
-html {
+body {
   width: 100vw;
   height: auto;
   min-height: 100vh;
@@ -185,4 +185,129 @@ h4 {
   position: absolute;
   top: -20px;
   right: 0;
+}
+
+/* Recent News */
+.recent{
+  width: 100vw;
+  height: auto;
+  height: 100vh;
+  padding: 0 10%;
+  display: flex;
+  flex-direction: column;
+  
+}
+.title{
+  display: flex;
+  flex-direction: column;
+  width: 15vw;
+  height: 10vh;
+  align-items: flex-start;
+
+
+}
+
+.content{
+  width: 80vw;
+  height: 70vh;
+  display: flex;
+}
+.recentl{
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  align-items: flex-start;
+  flex-direction: column;
+
+}
+.cont{
+  display: flex;
+
+}
+.button_outline2{
+  margin-top:100px;
+  border: 2px solid red;
+  padding:20px 40px;
+}
+.recentr{
+  display: flex;
+  width:60%;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.imgone{
+  position:absolute;
+  top:-50px;
+  left: 85px;
+}
+.imgtwo{
+  position: absolute;
+  top:-100px;
+  left: 50px;
+}
+
+/* Footer */
+
+.footer{
+  width: 100vw;
+  height: auto;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+
+}
+.col-one{
+  width: 100vw;
+  height: 40vh;
+  margin: 0;
+  background-color: #DA5E42;
+  display: flex;
+  align-items: center;
+  padding: 2% 20%;
+  flex-direction: column;
+}
+
+.col-two{
+  width: 100vw;
+  height: auto;
+  min-height: 60vh;
+  margin: 0;
+  background-color: #D84727;
+  display: flex;
+  justify-content: space-between; 
+  color:white;
+  padding: 2% 10%;
+}
+.getintouch{
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contact{
+  display:flex;
+        justify-content:flex-start;
+        align-items:flex-start;
+        gap: 50px;
+        padding-left:-200px;
+        padding-top: 0;
+}
+.contact-col1{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.contact-col2{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom:18px;
+}
+
+.sosmed{
+  display: flex;
+  gap: 20px;
 }
