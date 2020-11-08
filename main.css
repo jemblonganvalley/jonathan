@@ -186,3 +186,114 @@ h4 {
   top: -20px;
   right: 0;
 }
+
+/* Product */
+.product {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  padding: 0 10%;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+}
+
+
+.product_col {
+  background-color: ghostwhite;
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.product_col_1,
+.product_col_2,
+.product_col_3{
+  width:26.6vw;
+}
+
+.product_card{
+  padding: 10px 0;
+  display: flex;
+}
+.product_judul{
+  font-size: 24pt;
+  padding: 0;
+  margin: 0;
+}
+.product_text{
+  padding: 0 10px;
+  font-size: 14pt;
+}
+
+.product_text_nama{
+  padding: 0 0 30px 0;
+  font-size: 14pt;
+  margin: 0;
+}
+
+.product_text .product_harga{
+  font-size: 18pt;
+  font-weight: 500;
+}
+
+.product_img{
+  width: 131px;
+  height: 131px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F1DDC9;
+}
+
+.product_img img{
+  width: 50px;
+}
+
+.product_button_outline{
+  width: 200px;
+  height: 60px;
+  background-color: ghostwhite;
+  border: 2px solid #d84727;
+  color: #d84727;
+  margin-top: 20px;
+}
+
+
+.product_button_outline:hover {
+  border-color: #000;
+  color: #000;
+}
+
+/* Testimonial */
+.testimonial {
+  width: 100vw;
+  height: 90vh;
+  padding: 0 10%;
+  display: flex;
+}
+
+.testimonial_img{
+  width: 50%;
+}
+
+.testimonial_text{
+  width: 60%;
+  margin-top: 10%;
+  padding: 0 20px;
+}
+
+/* Social */
+.social {
+  width: 100vw;
+  height: 60vh;
+  padding: 0 10%;
+}
+
+.social_image{
+  width: 100%;
+  display: flex;
+  padding: 0;
+  margin: 30px 0;
+}
