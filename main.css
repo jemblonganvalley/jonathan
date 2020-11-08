@@ -192,8 +192,8 @@ h4 {
   width: 100vw;
   height: 100vh;
   display: flex;
+  padding: 0 10%;
   align-items: center;
-  justify-content: center;
   position: relative;
   flex-direction: column;
 }
@@ -235,6 +235,7 @@ h4 {
 
 .product_text .product_harga{
   font-size: 18pt;
+  font-weight: 500;
 }
 
 .product_img{
@@ -256,7 +257,7 @@ h4 {
   background-color: ghostwhite;
   border: 2px solid #d84727;
   color: #d84727;
-  margin-top: 60px;
+  margin-top: 20px;
 }
 
 
@@ -265,5 +266,34 @@ h4 {
   color: #000;
 }
 
-/* Testimoni */
+/* Testimonial */
+.testimonial {
+  width: 100vw;
+  height: 90vh;
+  padding: 0 10%;
+  display: flex;
+}
 
+.testimonial_img{
+  width: 50%;
+}
+
+.testimonial_text{
+  width: 60%;
+  margin-top: 10%;
+  padding: 0 20px;
+}
+
+/* Social */
+.social {
+  width: 100vw;
+  height: 60vh;
+  padding: 0 10%;
+}
+
+.social_image{
+  width: 100%;
+  display: flex;
+  padding: 0;
+  margin: 30px 0;
+}

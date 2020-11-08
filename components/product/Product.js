@@ -15,7 +15,7 @@ const Product = () =>{
             </div>
             <div class='product_text'>
               <p class='product_text_nama'>Way Kambas Maple</p>
-              <h3>Rp 1.280.000</h3>
+              <h3 class='product_harga'>Rp 1.280.000</h3>
             </div>
           </div>
           <div class='product_card' >
@@ -24,7 +24,7 @@ const Product = () =>{
             </div>
             <div class='product_text'>
               <p class='product_text_nama'>Kaili</p>
-              <h3>Rp 950.000</h3>
+              <h3 class='product_harga'>Rp 950.000</h3>
             </div>
           </div>
           <div class='product_card'>
@@ -33,7 +33,7 @@ const Product = () =>{
             </div>
             <div class='product_text'>
               <p class='product_text_nama'>Sunda</p>
-              <h3>Rp 1.170.000</h3>
+              <h3 class='product_harga'>Rp 1.170.000</h3>
             </div>
           </div>
         </div>
@@ -48,7 +48,7 @@ const Product = () =>{
             <div class='product_text'>
               <p class='product_text_nama'>Tomia Ebony</p>
               <p style="text-decoration: line-through red; padding:0; margin:0;" >Rp 1.280.000</p>
-              <h3>Rp 960.000</h3>
+              <h3 class='product_harga'>Rp 960.000</h3>
             </div>
           </div>
           <div class='product_card'>
@@ -57,7 +57,7 @@ const Product = () =>{
             </div>
             <div class='product_text'>
               <p class='product_text_nama'>Mori</p>
-              <h3>Rp 950.000</h3>
+              <h3 class='product_harga'>Rp 950.000</h3>
             </div>
           </div>
           <div class='product_card'>
@@ -66,7 +66,7 @@ const Product = () =>{
             </div>
             <div class='product_text'>
               <p class='product_text_nama'>Alor</p>
-              <h3>Rp 1.170.000</h3>
+              <h3 class='product_harga'>Rp 1.170.000</h3>
             </div>
           </div>
         </div>
@@ -80,7 +80,7 @@ const Product = () =>{
             </div>
             <div class='product_text'>
               <p class='product_text_nama'>Sikka (Ebony & Maple)</p>
-              <h3>Rp 1.198.000</h3>
+              <h3 class='product_harga'>Rp 1.198.000</h3>
             </div>
           </div>
           <div class='product_card'>
@@ -89,7 +89,7 @@ const Product = () =>{
             </div>
             <div class='product_text'>
               <p class='product_text_nama'>Lore Walnut</p>
-              <h3>Rp 1.280.000</h3>
+              <h3 class='product_harga'>Rp 1.280.000</h3>
             </div>
           </div>
           <div class='product_card'>
@@ -98,7 +98,7 @@ const Product = () =>{
             </div>
             <div class='product_text'>
               <p class='product_text_nama'>Way Kambas <br> Limited Edition</p>
-              <h3>Rp 1.170.000</h3>
+              <h3 class='product_harga'>Rp 1.170.000</h3>
             </div>
           </div>
         </div>
@@ -106,7 +106,7 @@ const Product = () =>{
       </div>
 
       <button class='product_button_outline'>
-          <h3>See More</h3>
+          <h3 class='product_harga'>See More</h3>
       </button>
 
     </section>
