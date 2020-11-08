@@ -8,7 +8,7 @@ html {
   box-sizing: border-box;
 }
 
-html {
+body {
   width: 100vw;
   height: auto;
   min-height: 100vh;
@@ -198,7 +198,6 @@ h4 {
   flex-direction: column;
 }
 
-
 .product_col {
   background-color: ghostwhite;
   width: 100%;
@@ -209,49 +208,49 @@ h4 {
 
 .product_col_1,
 .product_col_2,
-.product_col_3{
-  width:26.6vw;
+.product_col_3 {
+  width: 26.6vw;
 }
 
-.product_card{
+.product_card {
   padding: 10px 0;
   display: flex;
 }
-.product_judul{
+.product_judul {
   font-size: 24pt;
   padding: 0;
   margin: 0;
 }
-.product_text{
+.product_text {
   padding: 0 10px;
   font-size: 14pt;
 }
 
-.product_text_nama{
+.product_text_nama {
   padding: 0 0 30px 0;
   font-size: 14pt;
   margin: 0;
 }
 
-.product_text .product_harga{
+.product_text .product_harga {
   font-size: 18pt;
   font-weight: 500;
 }
 
-.product_img{
+.product_img {
   width: 131px;
   height: 131px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #F1DDC9;
+  background-color: #f1ddc9;
 }
 
-.product_img img{
+.product_img img {
   width: 50px;
 }
 
-.product_button_outline{
+.product_button_outline {
   width: 200px;
   height: 60px;
   background-color: ghostwhite;
@@ -259,7 +258,6 @@ h4 {
   color: #d84727;
   margin-top: 20px;
 }
-
 
 .product_button_outline:hover {
   border-color: #000;
@@ -274,11 +272,11 @@ h4 {
   display: flex;
 }
 
-.testimonial_img{
+.testimonial_img {
   width: 50%;
 }
 
-.testimonial_text{
+.testimonial_text {
   width: 60%;
   margin-top: 10%;
   padding: 0 20px;
@@ -291,9 +289,126 @@ h4 {
   padding: 0 10%;
 }
 
-.social_image{
+.social_image {
   width: 100%;
   display: flex;
   padding: 0;
   margin: 30px 0;
+}
+/* Recent News */
+.recent {
+  width: 100vw;
+  height: auto;
+  height: 100vh;
+  padding: 0 10%;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  width: 15vw;
+  height: 10vh;
+  align-items: flex-start;
+}
+
+.content {
+  width: 80vw;
+  height: 70vh;
+  display: flex;
+}
+.recentl {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.cont {
+  display: flex;
+}
+.button_outline2 {
+  margin-top: 100px;
+  border: 2px solid red;
+  padding: 20px 40px;
+}
+.recentr {
+  display: flex;
+  width: 60%;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.imgone {
+  position: absolute;
+  top: -50px;
+  left: 85px;
+}
+.imgtwo {
+  position: absolute;
+  top: -100px;
+  left: 50px;
+}
+
+/* Footer */
+
+.footer {
+  width: 100vw;
+  height: auto;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.col-one {
+  width: 100vw;
+  height: 40vh;
+  margin: 0;
+  background-color: #da5e42;
+  display: flex;
+  align-items: center;
+  padding: 2% 20%;
+  flex-direction: column;
+}
+
+.col-two {
+  width: 100vw;
+  height: auto;
+  min-height: 60vh;
+  margin: 0;
+  background-color: #d84727;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 2% 10%;
+}
+.getintouch {
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contact {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 50px;
+  padding-left: -200px;
+  padding-top: 0;
+}
+.contact-col1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-col2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 18px;
+}
+
+.sosmed {
+  display: flex;
+  gap: 20px;
 }
