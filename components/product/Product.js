@@ -105,7 +105,7 @@ const Product = () =>{
 
       </div>
 
-      <button class='product_banner_button product_button_outline'>
+      <button class='product_button_outline'>
           <h3>See More</h3>
       </button>
 
