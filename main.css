@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100vw;
+  height: auto;
+  min-height: 100vh;
+  background-color: ghostwhite;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+a {
+  color: inherit;
+  font-size: inherit;
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  padding: 0;
+  margin: 0;
+}
+
+/* NAVBAR */
+.navbar {
+  width: 100vw;
+  height: 10vh;
+  padding: 0 10%;
+  display: flex;
+  background-color: ghostwhite;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.brand,
+.menu,
+.login,
+.left_menu {
+  display: flex;
+  align-items: center;
+  /* border: 0.5px solid blue; */
+}
+
+.brand {
+  flex: 1;
+  gap: 10px;
+}
+
+.menu {
+  flex: 2;
+  justify-content: space-evenly;
+}
+
+.menu a {
+  text-transform: uppercase;
+}
+
+.left_menu {
+  flex: 1;
+  gap: 20px;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.login {
+  gap: 10px;
+  cursor: pointer;
+}
+
+.login h4 {
+  cursor: pointer;
+  font-weight: 200;
+}
+
+/* HERO */
+.hero {
+  width: 100vw;
+  height: 100vh;
+  padding: 0 10%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-top: 10vh;
+}
+
+.hero_banner {
+  background-color: #f1ddc9;
+  width: 100%;
+  height: 70%;
+  display: flex;
+}
+
+.hero_banner_left,
+.hero_banner_right {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero_banner_left {
+  flex: 1;
+  /* border: 1px solid blue; */
+}
+
+.hero_banner_right {
+  flex: 2;
+  padding: 40px;
+  justify-content: center;
+}
+
+.hero_banner_right a {
+  font-weight: bold;
+}
+
+.hero_banner_right h1 {
+  font-size: 4rem;
+  font-weight: 300;
+}
+
+.hero_banner_right p {
+  width: 80%;
+  line-height: 2;
+}
+
+.hero_banner_image {
+  position: absolute;
+  bottom: 50px;
+}
+
+.hero_banner_button_group {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.hero_banner_button {
+  width: 200px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+.button_solid {
+  background-color: #d84727;
+  color: white;
+}
+
+.button_solid:hover {
+  background-color: #000;
+}
+
+.button_outline {
+  background-color: #f1ddc9;
+  border: 2px solid #d84727;
+  color: #d84727;
+}
+
+.button_outline:hover {
+  border-color: #000;
+  color: #000;
+}
+
+.flash_image {
+  position: absolute;
+  top: -20px;
+  right: 0;
+}
