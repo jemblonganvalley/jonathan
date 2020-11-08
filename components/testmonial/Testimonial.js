@@ -2,7 +2,7 @@
 const Testimonial = () =>{
   return `
     <section class='testimonial'>
-      <div
+      <div></div>
     </section>
   
   `
