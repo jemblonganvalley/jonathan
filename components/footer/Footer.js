@@ -3,12 +3,7 @@ const Footer = () => {
     <section class="footer">
     <div class="col-one">
 
-    <div style="
-    display:flex;
-    gap:100px;
-   
-    
-    ">
+    <div class="pay">
      <img src="../../assets/bni.png"/>
      <img src="../../assets/permata_bank.png"/>
      <img src="../../assets/mastercard.png"/>
@@ -16,11 +11,7 @@ const Footer = () => {
      <img src="../../assets/visa.png"/> 
      </div>
      
-     <div style="
-     display:flex;
-     gap:100px;
-   
-     ">
+     <div class="pay">
      <img src="../../assets/mandiri.png"/>
      <img src="../../assets/kredivo.png"/>
      <img src="../../assets/uob.png"/>
@@ -84,7 +75,7 @@ const Footer = () => {
         </div>
         </div>
 
-        <div>
+        <div class="useful">
         <h2 class="title">Useful Link
         <hr style="
         border:0.5px solid white;
@@ -102,7 +93,7 @@ const Footer = () => {
         FAQ</p>
         </div>
 
-        <div>
+        <div class="campaign">
         <h2 class="title">Campaign
         <hr style="
         border:0.5px solid white;
